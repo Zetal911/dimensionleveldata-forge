@@ -2,7 +2,8 @@
   "required": true,
   "minVersion": "0.8",
   "package": "xyz.eclipseisoffline.dimensionleveldata.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "dimensionleveldata.refmap.json",
   "mixins": [
     "DerivedLevelDataAccessor",
     "LevelAccessor",
@@ -10,7 +11,8 @@
     "TimeCommandMixin",
     "WeatherCommandMixin"
   ],
-  "client": [],
+  "client": [
+  ],
   "injectors": {
     "defaultRequire": 1
   }
